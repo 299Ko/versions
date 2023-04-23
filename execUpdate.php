@@ -11,6 +11,9 @@
  * @package 299Ko https://github.com/299Ko/299ko
  */
 
+// need to be started in CLI, in versions folder
+// php execUpdate.php
+
 define('KOPATH', '../299ko/');
 define('VERSIONSPATH', '../versions/');
 
