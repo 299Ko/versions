@@ -17,9 +17,9 @@
 define('KOPATH', '../299ko/');
 define('VERSIONSPATH', '../versions/');
 
-$version = '1.2.3';
-$commitLastVersion = '6e310379848adfb618df15a519db5eb05204d08b';
-$commitFutureVersion = 'master';
+$version = '1.1';
+$commitLastVersion = '72e48332883aca17afb9c8975e6bc55761b29aa7';
+$commitFutureVersion = '6e310379848adfb618df15a519db5eb05204d08b';
 
 chdir(KOPATH);
 
