@@ -13,5 +13,5 @@ This repo is used to update automatically 299Ko from the configManager plugin.
     - $commitLastVersion is the full SHA1 of the last version (eg 1.1.0)
     - $commitFutureVersion is the full SHA1 of the version to create (eg 1.2.0)
 - In a terminal, exec `php execUpdate.php` in versions folder.
-- In versions/core/versions.json, add the new version
+- In versions/core/versions.json, add the new version and modify last_version at top
 - Commit versions repo
