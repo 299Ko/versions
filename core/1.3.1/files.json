@@ -1,0 +1,25 @@
+{
+    "M": [
+        ".gitignore",
+        "changelog.md",
+        "common\/common.php",
+        "common\/config.php",
+        "common\/core.class.php",
+        "common\/langs\/en.ini",
+        "common\/langs\/fr.ini",
+        "common\/util.class.php",
+        "install.php",
+        "plugin\/blog\/admin.php",
+        "plugin\/blog\/blog.php",
+        "plugin\/blog\/controllers\/BlogReadController.php",
+        "plugin\/blog\/param\/config.json",
+        "plugin\/blog\/template\/admin.php",
+        "plugin\/blog\/template\/param.php",
+        "plugin\/blog\/template\/read.tpl",
+        "theme\/default\/layout.tpl",
+        "theme\/default\/styles.css"
+    ],
+    "A": [
+        "plugin\/blog\/langs\/fr.ini"
+    ]
+}
