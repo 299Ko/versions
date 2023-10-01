@@ -26,7 +26,7 @@ echo <<<EOF
     <div class="display-remain-time">10:00</div>
   </div>
   <div class="upd">
-    <h1>1.3.0</h1>
+    <h1>1.3.1</h1>
     <p>
       La mise à jour est en cours. Une fois le compte à rebours arrivé à 0, un lien s'affichera pour vous rediriger vers l'administration de votre site.
     </p>
