@@ -17,9 +17,9 @@
 define('KOPATH', '../299ko/');
 define('VERSIONSPATH', '../versions/');
 
-$version = '1.3.2';
-$commitLastVersion =   '6f56e03d8d1726c1bc6d5170be427ee560177beb';
-$commitFutureVersion = 'ac061f240360e5d22b41a236768628cf143e9821';
+$version = '2.0.0';
+$commitLastVersion =   'ac061f240360e5d22b41a236768628cf143e9821';
+$commitFutureVersion = 'aa4cae7fe115aebf8a17b3e6a6bfc325c1f0f2fd';
 
 chdir(KOPATH);
 
@@ -34,6 +34,12 @@ foreach ($result as $r) {
     $line = explode("\t", $r);
     if (count($line) === 2) {
         $json[$line[0]][] = $line[1];
+    } elseif (count($line) === 3) {
+        if (substr($line[0],0,1) === "R") {
+            // Rename detected
+            $json["D"][] = $line[1];
+            $json["A"][] = $line[2];
+        }
     }
 }
 
